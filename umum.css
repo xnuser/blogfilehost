@@ -86,3 +86,18 @@ pre.code-jquery code {
 .note.orange:before{border-color:#fff #fff #e67e22 #e67e22;background:#e67e22}
 .note.crusta:before{border-color:#fff #fff #de6e45 #de6e45;background:#de6e45}
 .note.river:before{border-color:#fff #fff #2980b9 #2980b9;background:#2980b9}
+
+/* Related Post Style 1 */
+.related-simplify{position:relative;padding:0;margin:15px auto;width:100%;}
+.related-simplify h4{background:#3498db;padding:8px 12px;margin:0;font-size:15px;font-weight:400;color:#fff;border:1px solid #2e88c5}
+.related-simplify ul{margin:0;padding:0}
+.related-simplify ul li{background:#f6f6f6;position:relative;list-style:none;padding:9px;margin:auto;line-height:1.4em;border:1px solid rgba(0,0,0,0.1);border-bottom:0;transition:all .3s}
+.related-simplify ul li:nth-child(odd){background:#fefefe}
+.related-simplify ul li:last-child{border-bottom:1px solid rgba(0,0,0,0.1)}
+.related-simplify ul li:before{content:'\f138';font-family:fontawesome;position:absolute;margin:0 9px 0 4px;color:#2ecc71;overflow:hidden;transition:all .3s}
+.related-simplify ul li:hover:before{content:'\f138';font-family:fontawesome;-webkit-animation:bounceright .3s alternate ease infinite;animation:bounceright .3s alternate ease infinite}
+.related-simplify a{color:#0383d9;font-size:13px;margin:0 0 0 30px;}
+.related-simplify a:hover{color:#0383d9;text-decoration:underline}
+.related-simplify ul li:nth-child(n+4) {display:none;}
+@-webkit-keyframes bounceright{from{-webkit-transform:translateX(0)}to{-webkit-transform:translateX(3px)}}
+@keyframes bounceright{from{transform:translateX(0)}to{transform:translateX(3px)}}
